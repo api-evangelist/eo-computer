@@ -1,8 +1,23 @@
 aid: eo-computer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eo-computer.png
 name: Eo Computer
-description: 'Eo Computer is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Eo Computer (EO, Inc.) was an early-1990s hardtech company, backed by Kleiner Perkins,
+  that built the EO Personal Communicator - a pen-based tablet computer running GO Corporation''s PenPoint
+  operating system. AT&T became the principal backer and later shut the company down in 1994. The company
+  is defunct: it has no website, developer program, public API, SDKs, or any published developer surface,
+  so there is nothing for the API Evangelist enrichment pipeline to search, generate, or derive. This
+  profile is retained as a historical portfolio record of a dead, non-API hardware company.'
 url: https://raw.githubusercontent.com/api-evangelist/eo-computer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,20 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-is-api-provider: false
+x-enrichment: 'no-op: defunct 1990s hardware company, no developer/API surface to enrich'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Hardtech
+- Defunct
+- Pen Computing
+- Tablet Computer
+- Personal Communicator
+- 1990s
 apis: []
 maintainers:
 - FN: Kin Lane
