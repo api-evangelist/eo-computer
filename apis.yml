@@ -28,7 +28,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-is-api-provider: false
 x-enrichment: 'no-op: defunct 1990s hardware company, no developer/API surface to enrich'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
